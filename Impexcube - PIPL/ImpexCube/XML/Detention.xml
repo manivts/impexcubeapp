@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TLPLAIR>
+  <TLPL>
+    <Detail>
+      <job_stage>Document Received Date</job_stage>
+      </Detail>
+    </TLPL>
+    <TLPL>
+     <Detail>
+       <job_stage>Orgl Doc recd Date</job_stage>
+     </Detail>
+   </TLPL>
+   <TLPL>
+    <Detail>
+      <job_stage>Vessel Arrived On</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>Duty Informed Date</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>Duty Received Date</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>Examination Completed Date</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>Truck Indent Programmed Sent On</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>Remarks</job_stage>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <job_stage>.</job_stage>
+    </Detail>
+  </TLPL>
+</TLPLAIR>

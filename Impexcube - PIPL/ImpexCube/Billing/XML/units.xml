@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TLPLSEA>
+  <TLPL>
+    <Detail>
+      <t1></t1>
+        </Detail>
+    </TLPL>
+   <TLPL>
+     <Detail>
+       <t1>PER B/E</t1>
+     </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER shipment</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER Flat Rate</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER Kg</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER Contr</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER TON</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER PKG</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER LICENSE</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PER TRA</t1>
+    </Detail>
+  </TLPL>
+</TLPLSEA>

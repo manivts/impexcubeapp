@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTS.ImpexCube.Web", "ImpexCube\VTS.ImpexCube.Web.csproj", "{08994B32-6026-4F28-9DE5-C2B08F46E899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTS.ImpexCube.Business", "Business\VTS.ImpexCube.Business.csproj", "{9317985E-53A3-4360-B64A-540BD68615E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTS.ImpexCube.Data", "Data\VTS.ImpexCube.Data.csproj", "{37FD8F54-9EED-43FE-BF95-C19F6E086F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTS.ImpexCube.Utlities", "VTS.ImpexCube.Utlities\VTS.ImpexCube.Utlities.csproj", "{A61F1896-05D6-4057-956F-4480CCE74E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTS.ImpexCube.Entities", "VTS.ImpexCube.Entities\VTS.ImpexCube.Entities.csproj", "{94248E27-E7AD-4341-BA9A-21EA90D9BE46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A44E9E8-5E74-4AE1-A93C-B29E19CCABF6}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ImpexCube.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08994B32-6026-4F28-9DE5-C2B08F46E899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08994B32-6026-4F28-9DE5-C2B08F46E899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08994B32-6026-4F28-9DE5-C2B08F46E899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08994B32-6026-4F28-9DE5-C2B08F46E899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9317985E-53A3-4360-B64A-540BD68615E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9317985E-53A3-4360-B64A-540BD68615E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9317985E-53A3-4360-B64A-540BD68615E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9317985E-53A3-4360-B64A-540BD68615E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FD8F54-9EED-43FE-BF95-C19F6E086F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FD8F54-9EED-43FE-BF95-C19F6E086F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FD8F54-9EED-43FE-BF95-C19F6E086F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FD8F54-9EED-43FE-BF95-C19F6E086F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61F1896-05D6-4057-956F-4480CCE74E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61F1896-05D6-4057-956F-4480CCE74E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61F1896-05D6-4057-956F-4480CCE74E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61F1896-05D6-4057-956F-4480CCE74E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94248E27-E7AD-4341-BA9A-21EA90D9BE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94248E27-E7AD-4341-BA9A-21EA90D9BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94248E27-E7AD-4341-BA9A-21EA90D9BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94248E27-E7AD-4341-BA9A-21EA90D9BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

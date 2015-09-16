@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TLPLSEA>
+  <TLPL>
+    <Detail>
+      <sno>DD</sno>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <sno>CHEQUE</sno>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <sno>CASH</sno>
+    </Detail>
+  </TLPL>
+
+</TLPLSEA>

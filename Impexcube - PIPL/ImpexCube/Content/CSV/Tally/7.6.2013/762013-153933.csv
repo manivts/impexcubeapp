@@ -1,0 +1,4 @@
+Voucher Type,Invoice No,Date,Ref,Dr Account,Cr.Account,Cost Center,Amount,Narration
+sales,5010,07-06-2013,5004 / Dinesh,Dinesh enterprises,,5004 / Dinesh,5000,JOBNO:5004/ AWB/BL.NO.:/ BE.NO.:/ / / ,
+sales,5010,07-06-2013,5004 / Dinesh,,Examination/Labout Charges,5004 / Dinesh,5000,JOBNO:5004/ AWB/BL.NO.:/ BE.NO.:/ / / ,
+sales,5010,07-06-2013,5004 / Dinesh,,Service Tax,5004 / Dinesh,0,JOBNO:5004/ AWB/BL.NO.:/ BE.NO.:/ / / ,

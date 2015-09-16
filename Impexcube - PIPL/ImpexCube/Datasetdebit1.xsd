@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Datasetdebit1" targetNamespace="http://tempuri.org/Datasetdebit1.xsd" xmlns:mstns="http://tempuri.org/Datasetdebit1.xsd" xmlns="http://tempuri.org/Datasetdebit1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ImpexCubeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ImpexCubeConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ImpexCubeConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_appdetailsTableAdapter" GeneratorDataComponentClassName="View_appdetailsTableAdapter" Name="View_appdetails" UserDataComponentName="View_appdetailsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ImpexCubeConnectionString (Web.config)" DbObjectName="ImpexBE.dbo.View_appdetails" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT CompanyName1, address3, address4, ShortName, CHANo, STRegNo, Logo, Branch, ReportBranchName FROM dbo.View_appdetails</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CompanyName1" DataSetColumn="CompanyName1" />
+              <Mapping SourceColumn="address3" DataSetColumn="address3" />
+              <Mapping SourceColumn="address4" DataSetColumn="address4" />
+              <Mapping SourceColumn="ShortName" DataSetColumn="ShortName" />
+              <Mapping SourceColumn="CHANo" DataSetColumn="CHANo" />
+              <Mapping SourceColumn="STRegNo" DataSetColumn="STRegNo" />
+              <Mapping SourceColumn="Logo" DataSetColumn="Logo" />
+              <Mapping SourceColumn="Branch" DataSetColumn="Branch" />
+              <Mapping SourceColumn="ReportBranchName" DataSetColumn="ReportBranchName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Datasetdebit1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Datasetdebit1" msprop:Generator_UserDSName="Datasetdebit1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_appdetails" msprop:Generator_TableClassName="View_appdetailsDataTable" msprop:Generator_TableVarName="tableView_appdetails" msprop:Generator_TablePropName="View_appdetails" msprop:Generator_RowDeletingName="View_appdetailsRowDeleting" msprop:Generator_UserTableName="View_appdetails" msprop:Generator_RowChangingName="View_appdetailsRowChanging" msprop:Generator_RowEvHandlerName="View_appdetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="View_appdetailsRowDeleted" msprop:Generator_RowEvArgName="View_appdetailsRowChangeEvent" msprop:Generator_RowChangedName="View_appdetailsRowChanged" msprop:Generator_RowClassName="View_appdetailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CompanyName1" msprop:Generator_ColumnVarNameInTable="columnCompanyName1" msprop:Generator_ColumnPropNameInRow="CompanyName1" msprop:Generator_ColumnPropNameInTable="CompanyName1Column" msprop:Generator_UserColumnName="CompanyName1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address3" msprop:Generator_ColumnVarNameInTable="columnaddress3" msprop:Generator_ColumnPropNameInRow="address3" msprop:Generator_ColumnPropNameInTable="address3Column" msprop:Generator_UserColumnName="address3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address4" msprop:Generator_ColumnVarNameInTable="columnaddress4" msprop:Generator_ColumnPropNameInRow="address4" msprop:Generator_ColumnPropNameInTable="address4Column" msprop:Generator_UserColumnName="address4" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShortName" msprop:Generator_ColumnVarNameInTable="columnShortName" msprop:Generator_ColumnPropNameInRow="ShortName" msprop:Generator_ColumnPropNameInTable="ShortNameColumn" msprop:Generator_UserColumnName="ShortName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CHANo" msprop:Generator_ColumnVarNameInTable="columnCHANo" msprop:Generator_ColumnPropNameInRow="CHANo" msprop:Generator_ColumnPropNameInTable="CHANoColumn" msprop:Generator_UserColumnName="CHANo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STRegNo" msprop:Generator_ColumnVarNameInTable="columnSTRegNo" msprop:Generator_ColumnPropNameInRow="STRegNo" msprop:Generator_ColumnPropNameInTable="STRegNoColumn" msprop:Generator_UserColumnName="STRegNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Logo" msprop:Generator_ColumnVarNameInTable="columnLogo" msprop:Generator_ColumnPropNameInRow="Logo" msprop:Generator_ColumnPropNameInTable="LogoColumn" msprop:Generator_UserColumnName="Logo" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Branch" msprop:Generator_ColumnVarNameInTable="columnBranch" msprop:Generator_ColumnPropNameInRow="Branch" msprop:Generator_ColumnPropNameInTable="BranchColumn" msprop:Generator_UserColumnName="Branch" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReportBranchName" msprop:Generator_ColumnVarNameInTable="columnReportBranchName" msprop:Generator_ColumnPropNameInRow="ReportBranchName" msprop:Generator_ColumnPropNameInTable="ReportBranchNameColumn" msprop:Generator_UserColumnName="ReportBranchName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

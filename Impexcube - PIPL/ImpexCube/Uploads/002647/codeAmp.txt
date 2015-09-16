@@ -1,0 +1,21 @@
+ public static string ConvertAmp(string st)
+        {
+            string res = "";
+            int i;
+            for (i = 0; (i <= (st.Length - 1)); i++)
+            {
+                if (st[i].ToString() == "&")
+                {
+                    res = (res + "&amp;");
+                }
+                else if ((st[i].ToString() == "'"))
+                {
+                    res = (res + "''");
+                }
+                else
+                {
+                    res = (res + st[i].ToString());
+                }
+            }
+            return res;
+        }

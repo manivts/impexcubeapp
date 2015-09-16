@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TLPLSEA>
+
+  <TLPL>
+    <Detail>
+      <t1>Customs O.T / R.D Charges Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Original /Xerox Invoice B/L / Packing List</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Original Licence No</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>PHO Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Surveyor Report</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Certificate of Origin</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Marine Insurance Certificate</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Certificate of Analysis</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>CMC Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>N-Form Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Others</t1>
+    </Detail>
+  </TLPL>
+</TLPLSEA>

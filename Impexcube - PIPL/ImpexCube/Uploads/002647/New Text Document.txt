@@ -1,0 +1,7 @@
+SELECT * FROM jsu.iworkreg_jobstatus i where job_no like '%20246%';
+SELECT * FROM jsu.ishp_dtl i where job_no like '%20246%';
+SELECT * FROM jsu.ijob_pos i where job_no like '%20246%';
+SELECT * FROM jsu.iinv_dtl i where job_no like '%20246%';
+SELECT * FROM jsu.prt_mast p where party_code ='ANKI';
+SELECT * FROM jsu.cnsr_mst c;
+ where cnsr_code ='ANKI';

@@ -1,0 +1,398 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ImpexCube.Master.cs"
+    Inherits="VTS.ImpexCube.Web.HomeMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Impex Cube</title>
+    <link href="Content/Styles/StandardTool.css" rel="stylesheet" type="text/css" />
+    <link href="Content/Styles/MasterStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Content/Styles/MenuStyle.css" rel="stylesheet" type="text/css" />
+    <script src="Content/Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="Content/Scripts/MenuScript.js" type="text/javascript"></script>
+    <script src="Content/Scripts/ProductDetails.js" type="text/javascript"></script>
+    <link href="Content/Styles/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        //        function callJobNo() {
+        //           // onload = "javascript:return callJobNo();"
+        //            alert('JobNo');
+        //            var JobNo = $("#ContentPlaceHolder1_ddlJobNo");
+        //            BindJobNumber(JobNo);
+        //        }
+
+        //        $(document).ready(function () {
+        //            //alert('JobNo');
+        //           //  var JobNo = $("#ContentPlaceHolder1_ddlJobNo");
+        //            var JobNo1 = $("#ddlJobNo");
+        //           
+        //            BindJobNumber(JobNo1);
+        //           // BindJobNumber();
+        //        });
+
+        //$(‘#btnShow').click(function () {
+        //alert($(‘#ddlcountry').find(‘option:selected').val() + ‘:' + $(‘#ddlcountry').find(‘option:selected').text());
+        //});
+        //  function preventBackspace(e) {
+        //            var evt = e || window.event;
+        //            if (evt) {
+        //                var keyCode = evt.charCode || evt.keyCode;
+        //                if (keyCode === 8) {
+        //                    if (evt.preventDefault) {
+        //                        alert("Test");
+        //                        evt.preventDefault();
+
+        //                    } else {
+        //                        evt.returnValue = false;
+        //                    }
+        //                }
+        //               
+        //            }
+        //        }
+
+        //function KeyCheck()
+        // {
+
+        //    var KeyID = event.keyCode;
+        //    alert(KeyID);
+        //    switch (KeyID) {
+        //        case 93:  //F12 KEY CODE         
+        //            alert('hello');
+        //            return false;
+        //            break;            
+        //    }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%--onkeydown ="javascript:return preventBackspace(event);"--%>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <table class="width100">
+                <div class="Masterheading">
+                    &nbsp;<asp:Label ID="lblName" runat="server"></asp:Label>
+                </div>
+                <tr bgcolor="#3399FF">
+                    <%--<div class="clear hideSkiplink">--%>
+                    <td class="welcome">
+                        &nbsp;
+                    </td>
+                    <%--</div>--%>
+                    <td>
+                        <div style="height: 27px">
+                            <ul id="nav">
+                                <li><a href="HomePage.aspx">Dashboard</a> </li>
+                                <li id="IMPImport" runat="server"><a href="#">Import</a>
+                                    <ul>
+                                        <li id="IMPJobCreation" runat="server"><a href="frmJobCreation.aspx?Mode=Search Job">
+                                            Job Creation</a></li>
+                                        <li id="IMPShipment" runat="server" visible="false"><a href="frmShipment.aspx?Mode=Direct">
+                                            Shipment</a></li>
+                                        <li id="IMPInvoice" runat="server" visible="false"><a href="frmInvoiceDetails.aspx?Mode=Direct">
+                                            Invoice</a></li>
+                                        <li id="IMPProduct" runat="server" visible="false"><a href="frmProductMainPage.aspx?Mode=Direct">
+                                            Product Details</a></li>
+                                        <li id="IMPCheckList" runat="server" visible="false"><a href="frmPrintCheckList.aspx">
+                                            Check List</a></li>
+                                        <li id="IMPBEFile" runat="server" visible="false"><a href="frmBeFile.aspx">Create BE
+                                            File</a></li>
+                                        <li id="IMPFileUpload" runat="server" visible="false"><a href="frmFileUpload.aspx?Mode=Import">
+                                            BE File Download</a></li>
+                                        <li id="IMPJobSearch" runat="server" visible="false"><a href="frmJobSearch.aspx">Job
+                                            Search</a></li>
+                                        <li id="IMPStageList" runat="server" visible="false"><a href="frmStageListView.aspx">
+                                            Stage Update</a></li>
+                                        <li id="IMPDocUpload" runat="server" visible="false"><a href="frmDocument.aspx">Document
+                                            Upload</a></li>
+                                    </ul>
+                                </li>
+                                <li id="EXPExport" runat="server"><a href="#">Export</a>
+                                    <ul>
+                                        <li id="EXPJobCreation" runat="server"><a href="efrmJobCreation.aspx?Mode=Search Job">Job Creation</a></li>
+                                        <%--<li><a href="efrmExporterDetails.aspx">Exporter</a></li>--%>
+                                        <li id="EXPShipment" runat="server" visible="false"><a href="efrmShipmentMain.aspx">
+                                            Shipment</a></li>
+                                        <li id="EXPInvoice" runat="server" visible="false"><a href="efrmInvoiceExport.aspx">
+                                            Invoice</a></li>
+                                        <li id="EXPProduct" runat="server" visible="false"><a href="efrmProductExport.aspx">
+                                            Product Details</a></li>
+                                        <li id="EXPCheckList" runat="server" visible="false"><a href="efrmPrintCheckList.aspx">
+                                            Check List</a></li>
+                                        <li id="EXPSBFile" runat="server" visible="false"><a href="frmsb.aspx">Create SB File</a></li>
+                                        <li id="EXPFileUpload" runat="server" visible="false"><a href="frmFileUpload.aspx?Mode=Export">
+                                            SB File Download</a></li>
+                                        <%-- <li><a href="frmStageListView.aspx">Stage Update</a></li>--%>
+                                    </ul>
+                                </li>
+                                <li id="CRM" runat="server"><a href="#">CRM</a>
+                                    <ul>
+                                        <li id="CRMEnq" runat="server" visible="false"><a href="frmEnquiry.aspx">Enquiry</a></li>
+                                        <li id="CRMStandard" runat="server" visible="false"><a href="frmStandardRate.aspx">Standard
+                                            Rate</a></li>
+                                        <li id="CRMQuote" runat="server" visible="false"><a href="frmQuote.aspx">Quote</a></li>
+                                        <%-- <li><a href="frmOutwardUpdate.aspx">Outward Update</a></li>
+                                        <li><a href="frmOutwardDetails.aspx">Outward List</a></li>
+                                        <li><a href="frmInward.aspx">Inward</a></li>
+                                        <li><a href="frmInwardDetails.aspx">Inward Update</a></li>
+                                        <li><a href="frmInwardUpdate.aspx">Inward List</a></li>--%>
+                                    </ul>
+                                </li>
+                                <li id="MASMaster" runat="server"><a href="#">Master</a>
+                                    <ul>
+                                        <li id="MASAirLine" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=AirLine">
+                                            AirLine Master</a></li>
+                                        <li id="MASBank" runat="server" visible="false"><a href="frmBankMaster.aspx">Bank Master</a></li>
+                                        <li id="MASCFS" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=CFS">
+                                            CFS Master</a></li>
+                                        <li id="MASConType" runat="server" visible="false"><a href="frmContainerType.aspx">Container
+                                            Master</a></li>
+                                        <li id="MASCountry" runat="server" visible="false"><a href="frmCountryMaster.aspx">Country
+                                            Master</a></li>
+                                        <li id="MASCurrency" runat="server" visible="false"><a href="CurrencyMaster.aspx">Currency
+                                            Master</a></li>
+                                        <li id="MASCustom" runat="server" visible="false"><a href="frmCustomMaster.aspx">Custom
+                                            House Master</a></li>
+                                        <li id="MASCustomer" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=Customer">
+                                            Customer Master</a></li>
+                                        <li id="MASConsignor" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=Consignor">
+                                            Consignor Master</a></li>
+                                        <li id="MASDocument" runat="server" visible="false"><a href="frmDocumentMaster.aspx">
+                                            Document Master</a></li>
+                                        <li id="MASFF" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=FF">
+                                            FF Master</a></li>
+                                        <li id="MASLicence" runat="server" visible="false"><a href="frmImpLicenceSearch.aspx">
+                                            Licence Master</a></li>
+                                        <li id="MASPort" runat="server" visible="false"><a href="frmPortMaster.aspx">Port Master</a></li>
+                                        <li id="MASProduct" runat="server" visible="false"><a href="frmProductMaster.aspx">Product
+                                            Master</a></li>
+                                        <li id="MASStage" runat="server" visible="false"><a href="frmStageMaster.aspx?mode=New">
+                                            Stage Master</a></li>
+                                        <li id="MASStatus" runat="server" visible="false"><a href="frmStatusMaster.aspx?mode=New">
+                                            Status Master</a></li>
+                                        <li id="MASShipping" runat="server" visible="false"><a href="frmGeneralMaster.aspx?MODE=ShippingLine">
+                                            Shipping Line Master</a></li>
+                                        <li id="MASSVBRef" runat="server" visible="false"><a href="frmSVBRef.aspx">SVB Ref Master</a></li>
+                                        <li id="MASUser" runat="server" visible="false"><a href="frmUserRoles.aspx">User Roles</a></li>
+                                        <li id="MASUOM" runat="server" visible="false"><a href="frmUnit.aspx">UOM Master</a></li>
+                                        <li id="MASAuth" runat="server" visible="false"><a href="frmUserAuthorization.aspx">
+                                            User Authorization</a></li>
+                                        <li id="MASVessel" runat="server" visible="false"><a href="frmVesselMaster.aspx">Vessel
+                                            Master</a></li>
+                                        <li id="MASSAPTA" runat="server" visible="false"><a href="frmSAPTANotification.aspx">
+                                            SAPTA</a></li>
+                                        <li id="MASUNOTN" runat="server" visible="false"><a href="frmUserNotificationList.aspx">
+                                            User Notification</a></li>
+                                    </ul>
+                                </li>
+                                <li id="FundTransfer" runat="server"><a href="#">Fund Transfer</a>
+                                    <ul>
+                                        <li id="FUNReq" runat="server" visible="false"><a href="frmFundRequest.aspx?mode=New">
+                                            Fund Request </a></li>
+                                        <li id="FUNAppr" runat="server" visible="false"><a href="frmFundRequestApproval.aspx">
+                                            Operational Manager</a></li>
+                                        <li id="FUNAccount" runat="server" visible="false"><a href="frmFundRequestAccount.aspx">
+                                            Accounts Manager</a></li>
+                                        <li id="FUNAccountPayment" runat="server" visible="true"><a href="frmFRAccountsPayment.aspx">
+                                            Accounts Payment</a></li>
+                                    </ul>
+                                </li>
+                                <li id="Accounts" runat="server"><a href="Accounts/MainMenu.aspx">Accounts</a></li>
+                                <li id="Reports" runat="server"><a href="#">Reports</a>
+                                    <ul>
+                                        <%--   <li><a href="frmUserReports.aspx">Job Reports</a></li>--%>
+                                        <li id="REPJobStatusReport" runat="server" visible="false"><a href="frmJobStatusStage.aspx">
+                                            Job Stage</a></li>
+                                        <li id="REPJobStageHistory" runat="server" visible="false"><a href="frmJobStageHistory.aspx">
+                                            Job Stage History</a></li>
+                                        <%--<li><a href="frmJobStatusGroupWiseReport.aspx">Group Wise</a></li>--%>
+                                        <li id="REPGIT" runat="server" visible="false"><a href="frmGDIImportDSR.aspx">GIT Report</a></li>
+                                        <li id="REPGKNDSR" runat="server" visible="false"><a href="frmGKNDSR.aspx">GKN DSR Report</a></li>
+                                        <li id="REPUserReport" runat="server" visible="false"><a href="frmJobImporterWiseReport.aspx">
+                                            User Report Creation</a></li>
+                                        <li id="REPDSR" runat="server" visible="false"><a href="frmUserReport.aspx">DS Report</a></li>
+                                        <li id="REPAgeing" runat="server" visible="false"><a href="frmAgeingReport.aspx">Ageing
+                                            Report</a></li>
+                                        <li id="REPUserTemp" runat="server" visible="false"><a href="frmUserTemplates.aspx">
+                                            User Report-Templates</a></li>
+                                        <li id="REPInvoiceTemp" runat="server" visible="false"><a href="frmInvoiceReportTemplate.aspx">
+                                            Invoice Report Templates</a></li>
+                                        <li id="REPInvoice" runat="server" visible="false"><a href="frmInvoiceReport.aspx">Invoice
+                                            Report</a></li>
+                                        <li id="REPConntractWise" runat="server" visible="false"><a href="frmContractWiseReport.aspx">
+                                            Contract Wise Report</a></li>
+                                        <li id="REPInvDelStatus" runat="server" visible="false"><a href="frmInvoiceDeliveryReport.aspx">
+                                            Invoice Delivery Status</a></li>
+                                        <li id="REPSEWCsv" runat="server" visible="false"><a href="frmSEWCheckList.aspx">SEW
+                                            CSV Excel Export</a></li>
+                                        <%--   <li><a href="frmUserReports.aspx">Job Reports</a></li>--%>
+                                        <li id="REPSEWDSR" runat="server" ><a href="frmDSRFormat.aspx">DAILY STATUS REPORTS</a>
+                                            <%--<ul >
+                                                <li id="REPSEWDSR" runat="server" visible="true"><a href="frmSEWDSR.aspx">Format 1</a></li>
+                                                <li id="Li4" runat="server" visible="true"><a href="frmDSRFormat1.aspx">Format 2</a></li>
+                                                <li id="Li5" runat="server" visible="true"><a href="frmSEWDSR.aspx">Format 3</a></li>
+                                                <li id="Li6" runat="server" visible="true"><a href="frmSEWDSR.aspx">Format 4</a></li>
+                                            </ul>--%>
+                                        </li>
+                                        <%--<li><a href="#">Item wise cost Reports</a>
+                                            <ul>
+                                                <li><a href="frmSEW.aspx">Item wise cost Reports</a></li>
+                                                <li><a href="frmSEWUpdate.aspx">Item wise cost Update</a></li>
+                                                <li><a href="frmSEWCheckList.aspx">Item wise cost CheckList</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Detention Reports</a>
+                                            <ul>
+                                                <li><a href="frmDetention.aspx">Detention</a></li>
+                                                <li><a href="frmDetentionList.aspx">Detention Reports</a></li>
+                                                <li><a href="frmDetentionListJobNo.aspx">Detention Reports-Job Wise</a></li>
+                                                <li><a href="frmDeliveryReportParty.aspx">Delivery Reports</a></li>
+                                                <li><a href="frmTriplicate.aspx">Triplicate Reports</a></li>
+                                                <li><a href="frmDuplicate.aspx">Duplicate Reports</a></li>
+                                                <li><a href="frmReturnDEPB.aspx">Return Discharged - DEPB</a></li>
+                                                <li><a href="frmTruckIndent.aspx">Truck Indent Programme</a></li>
+                                                <li><a href="frmPortStatus.aspx">Port Status - Delivery Shipment</a></li>
+                                                <li><a href="frmPortStatusHC.aspx">Port Status - Home Consumption</a></li>
+                                                <li><a href="frmPortStatusBond.aspx">Port Status - Bonded Shipment</a></li>
+                                            </ul>
+                                        </li>--%>
+                                    </ul>
+                                </li>
+                                <li id="Billing" runat="server"><a href="Billing/index.aspx">Billing</a></li>
+                                <%--<li id="Li2" runat="server"><a href="OPReport/frmOPIndex.aspx">OPReport</a></li>--%>
+                                <%--<ul>
+                                        <li>
+                                            <asp:LinkButton ID="lnkBilling" runat="server" PostBackUrl="~/Billing/index.aspx">PIPL Billing</asp:LinkButton></li>
+                                    </ul>--%>
+                                <li id="Utilities" runat="server"><a href="#">Utilities</a>
+                                    <ul>
+                                        <%-- <li><a href="frmFileUpload.aspx">File Upload</a></li>
+                                        <li><a href="frmJobSync.aspx">Job Sync</a></li>
+                                        <li><a href="frmSingleJobSync.aspx">Single Job Sync</a></li>--%>
+                                        <li id="UserCreation" runat="server" visible="false"><a href="frmUserCreation.aspx">
+                                            User Creation</a></li>
+                                        <li id="CSVLoad" runat="server" visible="false"><a href="CSVLoad.aspx">SEW Data Load</a></li>
+                                        <li id="ProductLoad" runat="server" visible="false"><a href="ProductLoad.aspx">SEW Product
+                                            Upload</a></li>
+                                        <li id="JobSync" runat="server" visible="false"><a href="frmDataMigrationJob.aspx">Import
+                                            Job Sync</a></li>
+                                        <li id="ExpJobSync" runat="server" visible="false"><a href="frmDataMigrationExport.aspx">
+                                            Export Job Sync</a></li>
+                                        <li id="DevGuide" runat="server" visible="false"><a href="frmDeveloperGuide.aspx">Developer
+                                            Guide</a></li>
+                                        <li id="DevGudReport" runat="server" visible="false"><a href="frmDeveloperGuideReport.aspx">
+                                            Developer Guide Report</a></li>
+                                        <li id="AccessDb" runat="server" visible="false"><a href="frmAccessDBUpload.aspx">Access
+                                            DB Upload</a></li>
+                                        <li id="BESBFileRead" runat="server"><a href="frmJobImportCreation.aspx">BE / SB File Read</a></li>
+                                    </ul>
+                                </li>
+                                <li id="FrontOffice" runat="server" visible="false"><a href="#">Front Office</a>
+                                    <ul>
+                                        <li id="DocumentMaster" runat="server" visible="false"><a href="frmDocumentMaster.aspx">
+                                            Document Master</a></li>
+                                        <li id="Outward" runat="server" visible="false"><a href="frmOutward.aspx">Outward</a></li>
+                                        <li id="OutwardBill" runat="server" visible="false"><a href="frmOutwardBill.aspx">Outward
+                                            Bill</a></li>
+                                        <li id="OutwardUpdate" runat="server" visible="false"><a href="frmOutwardUpdate.aspx">
+                                            Outward Update</a></li>
+                                        <li id="OutwardDetails" runat="server" visible="false"><a href="frmOutwardDetails.aspx">
+                                            Outward List</a></li>
+                                        <li id="Inward" runat="server" visible="false"><a href="frmInward.aspx">Inward</a></li>
+                                        <li id="InwardUpdate" runat="server" visible="false"><a href="frmInwardUpdate.aspx">
+                                            Inward Update</a></li>
+                                        <li id="InwardDetails" runat="server" visible="false"><a href="frmInwardDetails.aspx">
+                                            Inward List</a></li>
+                                    </ul>
+                                </li>
+                                <%-- <li><a href="#">Front Office</a>
+                                    <ul>
+                                        <li><a href="frmDocumentMaster.aspx">Document Master</a></li>
+                                        <li><a href="frmOutward.aspx">Outward</a></li>
+                                        <li><a href="frmOutwardBill.aspx">Outward Bill</a></li>
+                                        <li><a href="frmOutwardUpdate.aspx">Outward Update</a></li>
+                                        <li><a href="frmOutwardDetails.aspx">Outward List</a></li>
+                                        <li><a href="frmInward.aspx">Inward</a></li>
+                                        <li><a href="frmInwardUpdate.aspx">Inward Update</a></li>
+                                        <li><a href="frmInwardDetails.aspx">Inward List</a></li>
+                                    </ul>
+                                </li>
+                                --%>
+                                <li>
+                                    <asp:LinkButton ID="LinkButtonSignOut" runat="server" OnClick="LinkButtonSignOut_Click">Sign Out</asp:LinkButton>
+                                </li>
+                                <%--  <li ><a href="frmChangePassword.aspx">Change Password</a></li>--%>
+                            </ul>
+                            <asp:Label ID="lblJobNo" runat="server" Style="font-size: 9pt; font-family: Arial;
+                                font-weight: 700"></asp:Label>
+                        </div>
+                        <%-- <div class="reset">
+                                </div>--%>
+                    </td>
+                    <%-- <td>--%>
+        </div>
+        <%--   </td>
+                </tr>--%>
+        <%--           <tr bgcolor="#3399FF">
+                    <td class="welcome">
+                        &nbsp;</td>
+                    <td valign="top">
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnJob" runat="server" ImageUrl="~/Content/Images/Job1.jpg"
+                            OnClick="btnJob_Click" ToolTip="Job Creation" Width="70px" Height="20px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnShipment" runat="server" ImageUrl="~/Content/Images/shipment 1.jpg"
+                            OnClick="btnShipment_Click" ToolTip="Shipment" Width="70px" Height="20px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnInvoice" runat="server" ImageUrl="~/Content/Images/invoice2.jpg"
+                            OnClick="btnInvoice_Click" ToolTip="Invoice" Height="20px" Width="70px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnProduct" runat="server" ImageUrl="~/Content/Images/product.jpg"
+                            OnClick="btnProduct_Click" ToolTip="Product" Height="20px" Width="70px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnCheckList" runat="server" ImageUrl="~/Content/Images/CheckList1.jpg"
+                            OnClick="btnCheckList_Click" ToolTip="Check List" Height="20px" Width="70px" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:ImageButton ID="btnJobSearch" runat="server" ImageUrl="~/Content/Images/Select.jpg"
+                            OnClick="btnJobSearch_Click" Visible="False" Height="16px" />
+                    </td>
+                </tr>--%>
+        <tr>
+            <td colspan="2">
+                <table style="background-color: #FFF; width: 100%;">
+                    <%--<tr>
+                                <td>
+                                    &nbsp;&nbsp;
+                                <asp:Label ID="LabelUserName" runat="server" Font-Size="9pt" ForeColor="Black"></asp:Label>
+                                    <asp:LinkButton ID="lnkChangePassword" runat="server" OnClick="lnkChangePassword_Click">Change Password</asp:LinkButton>
+                                </td>
+                                <td align="right">
+                                <asp:LinkButton ID="LinkButtonSignOut" runat="server" OnClick="LinkButtonSignOut_Click">Sign Out</asp:LinkButton>
+                                </td>
+                            </tr>
+                    --%></table>
+            </td>
+        </tr>
+        <br />
+        <tr>
+            <td valign="top" colspan="2" class="width100">
+                <div class="main">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+        </table>
+    </div>
+    <%--  <div style="text-align: center">
+        </div>--%>
+    <div class="clear">
+    </div>
+    <div class="footer">
+    </div>
+    </div>
+    </form>
+</body>
+</html>

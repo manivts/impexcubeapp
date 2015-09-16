@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage1" Codebehind="MasterPage1.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>::PIPL || MASTER</title>
+  
+    <style type="text/css">
+        .grid_scroll
+        {
+            overflow: auto;
+            height: 230px;
+            width: 200px;
+        }
+        .button_image1
+        {
+            font-family: verdana;
+            font-size: 11px;
+            color: #ffffff;
+            background-color: #013388;
+            background-image: url( '../images/bg_homepage_right.gif' );
+            border: 1px solid #ffffff;
+        }
+    </style>
+    <style type="text/css">
+        body
+        {
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .completionList
+        {
+            border: solid 1px #444444;
+            margin: 0px;
+            padding: 2px;
+            height: 100px;
+            overflow: auto;
+            background-color: white;
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .listItem
+        {
+            color: #666666;
+            background-color: white;
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .itemHighlighted
+        {
+            background-color: #ffc0c0;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Services>
+                <asp:ServiceReference Path="AutoComplete.asmx" />
+            </Services>
+        </asp:ScriptManager>
+        
+        <table style="z-index: 101; right: 15px; position: absolute; top: 30px">
+            <tr>
+                <td>
+                    <asp:Label ID="lblCompName" runat="server" Text="" Font-Bold="True"
+                        Font-Names="Arial" Font-Size="10pt" Height="18px"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <table style="width: 100%;">
+            <tr style="height: 10px;">
+                <td>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="height: 90%; vertical-align: top; background-color: white; width: 100%;">
+                    
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

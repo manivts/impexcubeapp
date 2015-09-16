@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TLPLSEA>
+  <TLPL>
+     <Detail>
+       <t1>Original Bill of Entry</t1>
+     </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Duplicate Bill of Entry</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Triplicate Bill of Entry (Exchange Control Copy)</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Quadruplicate Bill of Entry</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Shipping Line/D.O. Charges Receipt / DETN RCPT</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>AAI Charges</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>CFS /Warehousing Charges Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Port Trust Charges Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Insurance Premium Charges Receipt</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>L.R. Copies / Transport Bill</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Customs Duty Interest Charges Receipt </t1>
+    </Detail>
+  </TLPL>
+
+</TLPLSEA>

@@ -1,0 +1,21 @@
+PIPL-Visual Server
+
+Team Viewer= 405419641
+solutions
+
+Ammay=15745207
+
+PIPL-Billing
+
+Ammay=16088861
+
+PIPL JSU
+
+Ammay=16341050
+
+SELECT * FROM ijob_pos i;
+SELECT * FROM ishp_dtl i;
+SELECT * FROM iworkreg i;
+SELECT * FROM impcontdet i;
+
+kishor

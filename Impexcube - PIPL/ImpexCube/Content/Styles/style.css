@@ -1,0 +1,172 @@
+/* Its Control the Master Menu Design */
+
+/* Menu bar background color */
+#navigation, 
+#nav li ul li, 
+#nav li ul li a{
+background:#0CF; 
+width:100%;
+
+}
+
+/* Menu Item text color */
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li,
+#nav li ul li a,
+#nav li ul li a:hover  {
+color: #fff; 
+}
+
+/* Menu Item background color on hover */
+#nav li a:hover, 
+#nav li ul li a:hover  {
+background: #8EA344
+}
+
+/* Text Shadow */
+#nav li a, 
+#nav li a:hover, 
+#nav li ul li a:hover  {
+
+}
+
+
+
+#menu_div{
+clear: both;
+position: relative;
+top: 0;
+left: 0;
+} /* Free space to top specialy for menu */
+
+#navigation {
+position: fixed;
+}
+
+#navigation, #menu_div {
+	width: 600px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#menu_div, #navigation, #menu, #nav{
+	height: 25px; /* menu height */
+}
+
+#menu_div:hover,
+#navigation:hover,
+#nav li a:hover, #nav li ul a 
+{
+opacity: 0.90;/* Menu transparency on mouse hover*/
+} 
+
+#menu_div,
+#navigation, 
+#nav li a, 
+#menu_div:not(:hover), 
+#navigation:not(:hover)
+{
+opacity: 0.8;/* Menu transparency on mouse out */
+}
+
+
+#menu {
+	width: 600px;
+	margin:0 auto; /*center the menu*/
+	padding:0;
+	position: relative;
+} 
+
+#nav
+{
+    float: left;
+	margin:0;
+	padding:0;
+	position: relative;
+	font-family: 'Arial', Helvetica, sans-serif;
+    top: 0px;
+    left: 0px;
+    width: 1160px;
+}
+
+#nav li a,#nav li {
+float:left;
+
+}
+
+#nav li {
+   font: 12px/20px Tahoma,Arial;
+    list-style: none outside none;
+    position: relative;
+    text-align: left;
+    top: 0px;
+    left: 0px;
+    height: 24px;
+}
+#nav li a 
+{
+     background: none repeat scroll 0 0 #324143;
+   border-right: 1px solid white;
+    color: #FFFFFF;
+    display: block;
+    height: 15px;
+    padding: 6px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    width:45px;
+}
+
+/*====================
+	Submenu 
+=====================*/
+#nav li ul {
+
+  margin : 0;
+			padding: 0;
+			position: absolute;
+			display:none;
+			
+			padding-top:25px;
+			color:#ffffff;
+
+} /* hide submenu */
+
+
+#nav li:hover > ul {
+display:block;
+
+
+} /* show submenu on hover */
+#nav li ul li
+			{	float: none;
+				display:inherit;}
+			
+			#nav li ul li a
+			{	width: 100;
+			 	font-size:11px;
+			 	
+				background: #A9C251;
+				color: #24313C}
+			
+/* Submenu item */
+
+#nav li ul li 
+{
+    float: left ;
+_display:inline; /* for IE */
+
+}
+
+/* == 12. Sub-Sub Menu == */
+#nav li ul li ul {
+				background: #A9C251;
+				color: #24313C
+}
+
+#nav li ul li:hover ul {
+left:100%;
+top:auto;
+width:100px;
+background: #8EA344;
+}

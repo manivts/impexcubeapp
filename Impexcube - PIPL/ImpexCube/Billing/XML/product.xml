@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TLPLSEA>
+  <TLPL>
+    <Detail>
+      <t1></t1>
+        </Detail>
+    </TLPL>
+   <TLPL>
+     <Detail>
+       <t1>At Actual</t1>
+     </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Minimum</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Variable</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Maximum</t1>
+    </Detail>
+  </TLPL>
+  <TLPL>
+    <Detail>
+      <t1>Fixed</t1>
+    </Detail>
+  </TLPL>
+</TLPLSEA>

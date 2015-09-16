@@ -1,0 +1,97 @@
+﻿.clear
+	{	clear: both;
+		overflow: hidden;
+		height: 0}
+
+	#all
+	{	
+		margin: 40px auto 0 auto;
+		background: #FCFFED;
+		padding: 20px 35px;
+    height: 25px;
+}
+
+	h1
+	{	font: 26px tahoma, arial;
+		color: #324143}
+
+	p
+	{	font: 12px tahoma, arial;
+		color: #171F26;
+		margin-bottom: 25px}
+
+	a
+	{	color: #324143;
+    font-size: 8pt;
+}
+
+	a:hover
+	{	color: #ffffff}
+
+	#copyright
+	{	width: 80%;
+		min-width: 650px;
+		margin: 0 auto;
+		padding: 20px 35px;
+		background: #B6C28B;
+		font: 12px tahoma, arial;
+		color: #324143}
+
+	#copyright a
+	{	color: #324143}
+
+	#copyright a:hover
+	{	color: #171F26}
+	#jsddm
+	{
+	margin: 0;
+	padding: 0;
+    width: 880px;
+    float:left;
+}
+
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		font: 12px Tahoma, Arial}
+
+	#jsddm li a
+	{	display: block;
+		background: #324143;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #EAFFED;
+		white-space: nowrap}
+
+	#jsddm li a:hover
+	{	background: #24313C}
+		
+		#jsddm li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 1px solid white}
+		
+			#jsddm li ul li
+			{	float: none;
+				display: inline}
+			
+			#jsddm li ul li a
+			{	width: auto;
+				background: #A9C251;
+				color: #24313C}
+			
+			#jsddm li ul li a:hover
+			{	background: #8EA344}
+
+.reset {
+    color: #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    text-decoration: none;
+    width: 54px;
+}

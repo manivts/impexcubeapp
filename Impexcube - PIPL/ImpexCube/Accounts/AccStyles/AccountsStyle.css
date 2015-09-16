@@ -1,0 +1,80 @@
+﻿body {    text-align: center;
+}
+.txtbox100
+{
+    font-size: 13px;
+    font-family: Calibri;
+}
+.txtbox150
+{
+    font-size: 13px;
+    font-family: Calibri;
+}
+.txtbox200
+{
+    Width:200px;
+    font-size: 13px;
+    font-family: Calibri;
+}
+.txtbox300
+{
+    font-size: 13px;
+    font-family: Calibri;
+}
+.labelsize
+{
+    font-size: 13px;
+    font-family: Calibri;
+}
+.labeltitle
+{
+    font-size: 20px;
+    font-family: Calibri;
+    text-align: center; 
+}
+.ddl50
+{
+   Width:50px;
+   font-size: 13px;
+   font-family: Calibri;  
+}
+.ddl100
+{
+   font-size: 13px;
+   font-family: Calibri;  
+}
+.ddl150
+{
+   font-size: 13px;
+   font-family: Calibri;  
+}
+.ddl200
+{
+   font-size: 13px;
+   font-family: Calibri;  
+}
+.btn70
+{
+   height: 26px;
+   Width:70px;
+   font-size: 15px;
+  
+   font-family: Calibri;
+   background-color:Gray;
+}
+.btn100
+{
+   font-size: 15px;
+  
+   font-family: Calibri;
+   background-color:Gray;
+}
+.tdalign
+{
+     text-align: center; 
+}
+.hiddencol
+        {
+            display: none;
+        }
+

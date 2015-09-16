@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>
+      heart.png
+    </ImageUrl>
+    <NavigateUrl> http://www.oracle.com/index.html </NavigateUrl>
+    <AlternateText> *. </AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>
+      enerprise, applications, software, database, middleware, fusions, business, hardware, Oracle
+    </Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl> promo_lead_mountain_lion_peek.jpg </ImageUrl>
+    <NavigateUrl> http://www.apple.com/mac/</NavigateUrl>
+    <AlternateText>
+      123
+    </AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>iMac,iLife,Mac, MacBook</Keyword>
+  </Ad>
+</Advertisements>

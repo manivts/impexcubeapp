@@ -1,0 +1,4 @@
+Voucher Type,Invoice No,Date,Ref,Dr Account,Cr.Account,Cost Center,Amount,Narration
+Debit Note,6001,07-06-2013,5003 / Sample,,Sample,5003 / Sample,10600,JOBNO:5003/ AWB/BL.NO.:/ BE.NO.:/ / / ,
+Debit Note,6001,07-06-2013,5003 / Sample,Documentation charges,,5003 / Sample,5000,JOBNO:5003/ AWB/BL.NO.:/ BE.NO.:/ / / ,
+Debit Note,6001,07-06-2013,5003 / Sample,SAmple,,5003 / Sample,5600,JOBNO:5003/ AWB/BL.NO.:/ BE.NO.:/ / / ,

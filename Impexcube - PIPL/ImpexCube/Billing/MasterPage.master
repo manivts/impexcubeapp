@@ -1,0 +1,241 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" CodeBehind="MasterPage.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>::PIPL || MASTER</title>
+    <script src="../Content/Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <style type="text/css">
+        .grid_scroll
+        {
+            overflow: auto;
+            height: 450px;
+            width: 1100px;
+        }
+        .waterText
+        {
+            font-family: Arial;
+            font-size: 8pt;
+            color: #3A3A3A;
+            overflow: auto;
+            background-color: #F9F8F9;
+        }
+        .mAlign
+        {
+            text-align: right;
+        }
+        .button_image1
+        {
+            font-family: verdana;
+            font-size: 11px;
+            color: #ffffff;
+            background-color: #013388;
+            background-image: url( '../images/bg_homepage_right.gif' );
+            border: 1px solid #ffffff;
+        }
+    </style>
+    <style type="text/css">
+        body
+        {
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .completionList
+        {
+            border: solid 1px #444444;
+            margin: 0px;
+            padding: 2px;
+            height: 100px;
+            overflow: auto;
+            background-color: white;
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .listItem
+        {
+            color: #666666;
+            background-color: white;
+            font-family: verdana;
+            font-size: 10px;
+        }
+        .itemHighlighted
+        {
+            background-color: #ffc0c0;
+        }
+    </style>
+     <script type="text/javascript">
+         function confirmation() {
+             if (confirm('Are You Sure To save!')) {
+                 return true;
+             } else {
+                 return false;
+             }
+         }
+    </script> 
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Services>
+                <asp:ServiceReference Path="AutoComplete.asmx" />
+            </Services>
+        </asp:ScriptManager>
+        <table style="z-index: 101; right: 15px; position: absolute; top: 0px">
+            <tr>
+                <td>
+                    <asp:Label ID="lblCompName" runat="server" Text="" Font-Bold="True" Font-Names="Arial"
+                        Font-Size="8pt" Height="18px"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table style="width: 100%;">
+            <tr style="background-color: #2461bf;">
+                <td style="width: 100%;">
+                    <table style="background-color: #2461bf; width: 100%">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <asp:Label ID="Label3" runat="server" Font-Bold="False" Font-Names="Verdana" Font-Size="8pt"
+                                                Text="User Name :" ForeColor="White"></asp:Label>
+                                            <asp:Label ID="lblUser" runat="server" Font-Bold="False" Font-Names="Verdana" Font-Size="8pt"
+                                                ForeColor="White"></asp:Label>
+                                        </td>
+                                       
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="left" style="width: 25%">
+                                <asp:Menu ID="Menu2" runat="server" Font-Names="Arial" Font-Size="9pt" Orientation="Horizontal"
+                                    Font-Bold="True" ForeColor="White" Width="600px" DynamicVerticalOffset="12" OnMenuItemClick="Menu2_MenuItemClick"
+                                    Height="30px" BackColor="#2461BF">
+                                    <Items>
+                                        <asp:MenuItem  Text="Home  |" Value="Home" NavigateUrl="~/Billing/index.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Master" Value="Master">
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmChargeDtl.aspx" Text="Charge Info" Value="Charge Info">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/BankMaster.aspx" Text="Bank Info" Value="Bank Info">
+                                            </asp:MenuItem>
+                                               <asp:MenuItem  NavigateUrl="~/Billing/frmContract.aspx" Text="Contract Master" 
+                                                Value="Contract Master"></asp:MenuItem>                                         
+                                        </asp:MenuItem>
+                                     
+                                     
+                                     
+                                      <%-- <asp:MenuItem Text="Contract" Value="Contract">
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContract.aspx" Text="New Contract" Value="New Contract">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Edit Contract" Value="Edit Contract"></asp:MenuItem>
+                                            <asp:MenuItem Text="Renewal Contract" Value="Renewal Contract"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Contract Billing " Value="Contract Billing Info">
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContractInvoice.aspx" Text="Import - Billing"
+                                                Value="Imports"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContractInvoiceExp.aspx" Text="Export - Billing"
+                                                Value="Export Billing"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContractInvoiceATL.aspx" Text="ATL - Billing"
+                                                Value="ATL - Billing"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmATLEnggBill.aspx" Text="ATL - DEBP Billing"
+                                                Value="ATL - DEBP Billing"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmEditInvoice.aspx" Text="Edit Billing" Value="Edit Billing">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>--%>
+                                       <%-- <asp:MenuItem Text="Contract Billing" Value="Contract Billing">
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContractInvoice.aspx" 
+                                                Text="Import Billing" Value="Import Billing"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmContractInvoiceExp.aspx" 
+                                                Text="Export Billing" Value="Export Billing"></asp:MenuItem>
+                                        </asp:MenuItem>--%>
+                                        <asp:MenuItem Text="Direct Billing" Value="Bill Info">
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceSTAX.aspx" Text="Invoice - Import"
+                                                Value="Invoice"></asp:MenuItem>
+                                                <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceExp.aspx" Text="Invoice - Export"
+                                                Value="Invoice - Export"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLDebit.aspx" Text="Debit Note - Import" Value="Debit Note">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLDebitExp.aspx" Text="Debit Note - Export"
+                                                Value="Debit Note - Export"></asp:MenuItem>
+                                           <%-- <asp:MenuItem NavigateUrl="~/Billing/PIPLDebitATL.aspx" Text="Debit Note - ATL Demurrage"
+                                                Value="Debit Note - ATL Demurrage"></asp:MenuItem>--%>
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLDebitCD.aspx" Text="Debit Note - Custom Duty"
+                                                Value="Custom Duty"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceSTAXTrans.aspx" Text="Transport Billing"
+                                                Value="Transport Billing"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmEditInvoice.aspx" Text="Edit Billing" Value="Edit Billing">
+                                            </asp:MenuItem>
+                                         <%--   <asp:MenuItem NavigateUrl="~/Billing/Enclose.aspx" Text="Encloser" Value="Enclose">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceSTAXTrans.aspx" Text="Add Invoice"
+                                                Value="Add Invoice"></asp:MenuItem>--%>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Contract Billing" Value="Contract Info">
+                                                <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceSTAX.aspx?mode=Contract" Text="Contract Invoice - Import"
+                                                Value="Contract Invoice"></asp:MenuItem>
+                                                <asp:MenuItem NavigateUrl="~/Billing/PIPLDebit.aspx?mode=Contract" Text="Contract Debit Note - Import" Value="Contract Debit Note">
+                                                </asp:MenuItem>
+                                                 <asp:MenuItem NavigateUrl="~/Billing/PIPLinvoiceExp.aspx?mode=Contract" Text="Contract Invoice - Export"
+                                                Value="Contract Invoice - Export"></asp:MenuItem>
+                                                <asp:MenuItem NavigateUrl="~/Billing/PIPLDebitExp.aspx?mode=Contract" Text="Contract Debit Note - Export"
+                                                Value="Contract Debit Note - Export"></asp:MenuItem>                                                
+                                        </asp:MenuItem>
+                                  
+                                        <asp:MenuItem Text="Print Info" Value="Print">
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmPrint.aspx" Text="Invoice/Debit Note" Value="Invoice/Debit Note">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmPrintInvoice.aspx" Text="Print Billing" Value="Print Billing">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmPrintInvoiceAll.aspx" Text="Print Billing Reports"
+                                                Value="Print Billing Reports"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmPILOGPrint.aspx" 
+                                                Text="Print PILOG Invoice / Debit" Value="Print PILOG Invoice / Debit">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Report" Value="Report">
+                                          <%--  <asp:MenuItem NavigateUrl="~/Billing/frmContractReport.aspx" Text="Contract Info"
+                                                Value="Contract Info"></asp:MenuItem>--%>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmBillingReport.aspx" Text="Billing Info" Value="Billing Info">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/ExportToTally.aspx" Text="Export Tally" Value="Export Tally">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmBillingSummary.aspx" Text="Billing Summary"
+                                                Value="Billing Summary"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmBillingSummaryReport.aspx" Text="Billing Summary Report"
+                                                Value="Billing Summary Report"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Billing/frmBillingLedger.aspx" Text="Billing Ledger Info"
+                                                Value="Billing Ledger Info"></asp:MenuItem>
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Exit" Value="Exit" NavigateUrl="~/HomePage.aspx"></asp:MenuItem>
+                                    </Items>
+                                    <StaticHoverStyle ForeColor="DodgerBlue" BackColor="#2461BF" Font-Names="Arial" Font-Size="9pt" />
+                                    <DynamicMenuItemStyle BackColor="#2461BF" ForeColor="White" ItemSpacing="1px" VerticalPadding="5px"
+                                        BorderColor="DarkGray" BorderStyle="Solid" BorderWidth="1px" Font-Names="Arial"
+                                        Font-Size="9pt" />
+                                    <DynamicHoverStyle ForeColor="#FF8080" Font-Names="Arial" Font-Size="9pt" />
+                                    <StaticMenuStyle BackColor="#2461BF" BorderStyle="None" />
+                                    <StaticMenuItemStyle BackColor="#2461BF" Font-Names="Arial" Font-Size="9pt" />
+                                    <DynamicMenuStyle BackColor="#2461BF" />
+                                    <StaticSelectedStyle BackColor="#2461BF" Font-Names="Arial" Font-Size="9pt" />
+                                    <DynamicSelectedStyle BackColor="#2461BF" Font-Names="Arial" Font-Size="9pt" />
+                                </asp:Menu>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 90%; vertical-align: top; background-color: white; width: 98%;
+                    border: solid 1px #2461bf;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,273 @@
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube14.11.2013\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\MANI SIR\3.1.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\MANI SIR\3.1.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\MANI SIR\3.1.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\MANI SIR\3.1.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\MANI SIR\3.1.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\MANI SIR\3.1.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\MANI SIR\3.1.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+\\Vts-sdu-4\e\MMK\Application\PIPL Application\Impex\ImpexCube C#\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\IMPEXCUBE 11.01.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\Impex Cube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\Impex Cube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\Impex Cube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\Impex Cube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\Impex Cube\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\Impex Cube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\Impex Cube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\MANI SIR\28.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\MANI SIR\28.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\MANI SIR\28.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\MANI SIR\28.01.2014\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\MANI SIR\28.01.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\MANI SIR\28.01.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\MANI SIR\28.01.2014\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\Kishor\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\Kishor\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\Kishor\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\Kishor\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\Kishor\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\Kishor\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\Kishor\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\VTS-LAP-1\Desktop\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\WORKING\Server Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\WORKING\Server Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\WORKING\Server Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\WORKING\Server Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\WORKING\Server Application\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\WORKING\Server Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\WORKING\Server Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\WORKING\Working Application\Mani\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\WORKING\Working Application\Mani\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\WORKING\Working Application\Mani\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\WORKING\Working Application\Mani\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\WORKING\Working Application\Mani\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\WORKING\Working Application\Mani\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\WORKING\Working Application\Mani\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+\\Vts-sdu-4\e\Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+\\Vts-sdu-4\e\Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+\\Vts-sdu-4\e\Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+\\Vts-sdu-4\e\Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+\\Vts-sdu-4\e\Application\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+\\Vts-sdu-4\e\Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+\\Vts-sdu-4\e\Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+D:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\Application\PIPL Application\ImpexCube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\RAJESH\Live Application\Mani Sir ImpexCube\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\PIPL\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\PIPL\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\PIPL\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\PIPL\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\PIPL\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\PIPL\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\PIPL\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\obj\Release\ResolveAssemblyReference.cache
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\VTS-LAP-1\Desktop\SEW\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\RAJESH\Live Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\RAJESH\Live Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\RAJESH\Live Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\RAJESH\Live Application\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\RAJESH\Live Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\RAJESH\Live Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\RAJESH\Live Application\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+F:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+F:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+F:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+F:\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+F:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+F:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+F:\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\Ganesh1\New folder (2)\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema 25 Feb\Hema\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+E:\MMK\PIPL\Hema\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\H\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\Hema Impex Cube\Hema 27 Feb\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+C:\Users\vts-sdu-9\Desktop\hema\Hema 28 Feb (Sat)\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Rajesh Live Applications\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Rajesh Live Applications\ImpexCube\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Rajesh Live Applications\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Rajesh Live Applications\ImpexCube\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Rajesh Live Applications\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Rajesh Live Applications\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Rajesh Live Applications\ImpexCube\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube18.03.2015\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCubePIPL\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai)\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai)\Business\obj\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\bin\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\bin\Release\VTS.ImpexCube.Business.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\bin\Release\VTS.ImpexCube.Data.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\bin\Release\VTS.ImpexCube.Data.pdb
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\obj\Release\VTS.ImpexCube.Business.csprojResolveAssemblyReference.cache
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\obj\Release\VTS.ImpexCube.Business.dll
+D:\Hema Appl\Hema ImpexCube - Completed\ImpexCube - PIPL\Impexcube - PIPL(Mumbai and Chennai,Delhi,Bangalore)\Business\obj\Release\VTS.ImpexCube.Business.pdb

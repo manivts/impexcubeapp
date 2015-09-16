@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IMPEX>
+  <RPT>
+    <Detail>
+      <item>Cargo Planned and Delivered</item>
+      <value>CPD</value>
+    </Detail>
+  </RPT>
+  <RPT>
+    <Detail>
+      <item>Truck Indent Programme</item>
+      <value>TIP</value>
+    </Detail>
+  </RPT>
+  <RPT>
+    <Detail>
+      <item>Truck Delivery Reports</item>
+      <value>TDR</value>
+    </Detail>
+  </RPT>
+  <RPT>
+    <Detail>
+      <item>File forward to Billing</item>
+      <value>FFB</value>
+    </Detail>
+  </RPT>
+  <RPT>
+    <Detail>
+      <item>Billing Status Reports</item>
+      <value>BSR</value>
+    </Detail>
+  </RPT>
+  <RPT>
+    <Detail>
+      <item>PIPL - DSR</item>
+      <value>DSR</value>
+    </Detail>
+  </RPT>
+</IMPEX >

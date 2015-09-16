@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9317985E-53A3-4360-B64A-540BD68615E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VTS.ImpexCube.Business</RootNamespace>
+    <AssemblyName>VTS.ImpexCube.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CFSMasterBL.cs" />
+    <Compile Include="CommonBL.cs" />
+    <Compile Include="CRM\frmQuoteBL.cs" />
+    <Compile Include="CRM\StandartRateBL.cs" />
+    <Compile Include="CustomerMasterBL.cs" />
+    <Compile Include="DashBoardBL.cs" />
+    <Compile Include="EMJobCreationBL.cs" />
+    <Compile Include="EnquiryBL.cs" />
+    <Compile Include="ETAnnexureBL.cs" />
+    <Compile Include="ETAnnexureDocumentsBL.cs" />
+    <Compile Include="ETContainerBL.cs" />
+    <Compile Include="ETExporterBL.cs" />
+    <Compile Include="ETInvoiceBL.cs" />
+    <Compile Include="ETProductAR4DetailsBL.cs" />
+    <Compile Include="ETProductBL.cs" />
+    <Compile Include="ETProductDocumentReleasingBL.cs" />
+    <Compile Include="ETProductQuotaBL.cs" />
+    <Compile Include="ETShipmentBL.cs" />
+    <Compile Include="FreightDetailsBL.cs" />
+    <Compile Include="FundRequest.cs" />
+    <Compile Include="Importer.cs" />
+    <Compile Include="InvoiceDetailsBL.cs" />
+    <Compile Include="JobCreatiobBL.cs" />
+    <Compile Include="JobCreationBAL.cs" />
+    <Compile Include="JobImportCreationBL.cs" />
+    <Compile Include="JobStageUpdateBL.cs" />
+    <Compile Include="JobSyncBL.cs" />
+    <Compile Include="Job_ImporterBL.cs" />
+    <Compile Include="pChangePassBL.cs" />
+    <Compile Include="pJobBL.cs" />
+    <Compile Include="pMailBL.cs" />
+    <Compile Include="ProductDetailsBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShipmentBL.cs" />
+    <Compile Include="ShippingLineMasterBL.cs" />
+    <Compile Include="StageMasterBL.cs" />
+    <Compile Include="StatusMasterBL.cs" />
+    <Compile Include="userAuthorityBL.cs" />
+    <Compile Include="UserReportsBL.cs" />
+    <Compile Include="UserTemplateBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\VTS.ImpexCube.Data.csproj">
+      <Project>{37FD8F54-9EED-43FE-BF95-C19F6E086F56}</Project>
+      <Name>VTS.ImpexCube.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,124 @@
+﻿
+.page
+{
+  /*background-color: #FFFFFF;*/
+  /*background:#D1D0D0;*/
+  background:#DDEBF9;
+    margin:0 auto;
+    width: 100%;
+    /*border: 1px solid #496077;*/
+      
+}
+.header
+{
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+ 
+        
+}
+img
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    }
+/*.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}*/
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px -30px 8px;
+    /*min-height: 420px;*/
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+   /* min-height: 200px;*/
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+/* HEADINGS   
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+----------------------------------------------------------*/
